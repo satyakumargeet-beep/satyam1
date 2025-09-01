@@ -28,7 +28,7 @@ jobs:
          chmod +x *
 
       # Step 5: Run bot
-      - name: Run test
+      - name: Run vpsbest
         run: |
           python3 bot.py
           echo "✅ Python bot is running in background"
