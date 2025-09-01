@@ -9,8 +9,8 @@ attack_in_progress = False
 current_attack = None  # Store details of the current attack
 attack_history = []  # Store attack logs
 
-TELEGRAM_BOT_TOKEN = '7599179760:AAG6M4yfkqzRzKktkRjGixYZ3kTRK2JU-Mg'  # Replace with your bot token
-ADMIN_USER_ID = 8003600588
+TELEGRAM_BOT_TOKEN = '7110991582:AAHWArUkUAtPpWykh74Y85g-Tyx4M6iUllE'  # Replace with your bot token
+ADMIN_USER_ID = 5142603617
 MONGO_URI = "mongodb+srv://m92yt:Luffy123123@luffy2.n7zzkmo.mongodb.net/?retryWrites=true&w=majority&appName=LUFFY2"
 DB_NAME = "ninja"
 COLLECTION_NAME = "users"
