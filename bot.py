@@ -33,7 +33,7 @@ DEFAULT_THREADS = 1000
 DEFAULT_MAX_ATTACK_TIME = 1000
 
 LOCAL_TIMEZONE = pytz.timezone("Asia/Kolkata")
-PROTECTED_FILES = ["IZUNA.py", "IZUNA"]
+PROTECTED_FILES = ["bot.py", "test"]
 BLOCKED_COMMANDS = ['nano', 'vim', 'shutdown', 'reboot', 'rm', 'mv', 'dd']
 
 #USER_NAME = os.getlogin()
